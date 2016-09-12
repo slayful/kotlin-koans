@@ -11,13 +11,11 @@ fun todoTask6(): Nothing = TODO(
         The `task6` function should return a list of persons.
     """,
     documentation = doc6(),
-    references = { JavaCode6.Person("Alice", 29) }
+    references = { Person("Alice", 29) }
 )
 
-class Person
 
 fun task6(): List<Person> {
-    todoTask6()
-    return listOf(/*Person("Alice", 29), Person("Bob", 31)*/)
+    return listOf(Person("Alice", 29), Person("Bob", 31))
 }
 
